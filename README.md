@@ -31,6 +31,7 @@
   <img src="https://img.shields.io/badge/Rust-ce422b?style=for-the-badge&logo=rust&logoColor=white" />
   <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
   <img src="https://img.shields.io/badge/Terminal-0b0f19?style=for-the-badge&logo=gnubash&logoColor=a78bfa" />
+  <img src="https://img.shields.io/badge/Kdenlive-yellow?logo=kdenlive&style=for-the-badge" />
 </p>
 
 <br>
