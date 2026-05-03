@@ -51,7 +51,6 @@
 ### 📊 stats
 
 <p align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=programmersd21&show_icons=true&theme=midnight-purple&hide_border=true&bg_color=0b0f19&title_color=a78bfa&icon_color=ce422b&text_color=ffffff&count_private=true" />
   <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=programmersd21&layout=compact&theme=midnight-purple&hide_border=true&bg_color=0b0f19&title_color=a78bfa&text_color=ffffff&langs_count=6" />
 </p>
 
