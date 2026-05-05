@@ -51,10 +51,6 @@
 ### 📊 stats
 
 <p align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=programmersd21&layout=compact&theme=midnight-purple&hide_border=true&bg_color=0b0f19&title_color=a78bfa&text_color=ffffff&langs_count=6" />
-</p>
-
-<p align="center">
   <img src="https://streak-stats.demolab.com?user=programmersd21&theme=midnight-purple&hide_border=true&background=0b0f19&ring=a78bfa&fire=ce422b&currStreakLabel=a78bfa" />
 </p>
 
