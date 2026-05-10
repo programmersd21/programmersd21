@@ -40,6 +40,7 @@
 
 | &nbsp; | project | what it does | ⭐ |
 |:---:|:---|:---|:---:|
+| 📈 | **[curv](https://github.com/programmersd21/curv)** | terminal bezier workstation · live curve visualizer · animation analytics · css/swiftui exports | [![Stars](https://img.shields.io/github/stars/programmersd21/curv?style=for-the-badge&color=f59e0b&labelColor=0b0f19&logo=github)](https://github.com/programmersd21/curv/stargazers) |
 | 🎨 | **[bangen](https://github.com/programmersd21/bangen)** | ascii banner renderer · 30+ composable effects · live TUI · animated GIF export | [![Stars](https://img.shields.io/github/stars/programmersd21/bangen?style=for-the-badge&color=a78bfa&labelColor=0b0f19&logo=github)](https://github.com/programmersd21/bangen/stargazers) |
 | ⚡ | **[pyratatui](https://github.com/pyratatui/pyratatui)** | ratatui from python · pyo3 bindings · native render speed · wheel-distributed | [![Stars](https://img.shields.io/github/stars/pyratatui/pyratatui?style=for-the-badge&color=ce422b&labelColor=0b0f19&logo=github)](https://github.com/pyratatui/pyratatui/stargazers) |
 | 📝 | **[kairo](https://github.com/programmersd21/kairo)** | terminal task manager · sqlite · git sync · lua plugins · keyboard-first | [![Stars](https://img.shields.io/github/stars/programmersd21/kairo?style=for-the-badge&color=00ADD8&labelColor=0b0f19&logo=github)](https://github.com/programmersd21/kairo/stargazers) |
