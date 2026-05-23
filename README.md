@@ -30,6 +30,8 @@
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/Rust-ce422b?style=for-the-badge&logo=rust&logoColor=white" />
   <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
+  <img src="https://img.shields.io/badge/Nimble-7c3aed?style=for-the-badge&logo=llvm&logoColor=white" />
+  <img src="https://img.shields.io/badge/LLVM-262d3a?style=for-the-badge&logo=llvm&logoColor=white" />
   <img src="https://img.shields.io/badge/Terminal-0b0f19?style=for-the-badge&logo=gnubash&logoColor=a78bfa" />
   <img src="https://img.shields.io/badge/Kdenlive-yellow?logo=kdenlive&style=for-the-badge" />
 </p>
@@ -38,14 +40,15 @@
 
 ### 🚀 projects
 
-| &nbsp; | project | what it does | ⭐ |
-|:---:|:---|:---|:---:|
-| 📈 | **[curv](https://github.com/programmersd21/curv)** | terminal bezier workstation · live curve visualizer · animation analytics · css/swiftui exports | [![Stars](https://img.shields.io/github/stars/programmersd21/curv?style=for-the-badge&color=f59e0b&labelColor=0b0f19&logo=github)](https://github.com/programmersd21/curv/stargazers) |
-| 🎨 | **[bangen](https://github.com/programmersd21/bangen)** | ascii banner renderer · 30+ composable effects · live TUI · animated GIF export | [![Stars](https://img.shields.io/github/stars/programmersd21/bangen?style=for-the-badge&color=a78bfa&labelColor=0b0f19&logo=github)](https://github.com/programmersd21/bangen/stargazers) |
-| ⚡ | **[pyratatui](https://github.com/pyratatui/pyratatui)** | ratatui from python · pyo3 bindings · native render speed · wheel-distributed | [![Stars](https://img.shields.io/github/stars/pyratatui/pyratatui?style=for-the-badge&color=ce422b&labelColor=0b0f19&logo=github)](https://github.com/pyratatui/pyratatui/stargazers) |
-| 📝 | **[kairo](https://github.com/programmersd21/kairo)** | terminal task manager · sqlite · git sync · lua plugins · keyboard-first | [![Stars](https://img.shields.io/github/stars/programmersd21/kairo?style=for-the-badge&color=00ADD8&labelColor=0b0f19&logo=github)](https://github.com/programmersd21/kairo/stargazers) |
-| 🎬 | **[efficientmanim](https://github.com/programmersd21/EfficientManim)** | node-based manim editor · visual pipeline · live preview · AI generation | [![Stars](https://img.shields.io/github/stars/programmersd21/EfficientManim?style=for-the-badge&color=41CD52&labelColor=0b0f19&logo=github)](https://github.com/programmersd21/EfficientManim/stargazers) |
-| 🏝️ | **[nimbus](https://github.com/programmersd21/nimbus)** | dynamic island for windows · physics animations · media + system integration · sleek UI | [![Stars](https://img.shields.io/github/stars/programmersd21/nimbus?style=for-the-badge&color=58a6ff&labelColor=0b0f19&logo=github)](https://github.com/programmersd21/nimbus/stargazers) |
+|     | project                                                                | what it does                                                                                       |                                                                                                       ⭐                                                                                                      |
+| :-: | :--------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|  🧠 | **[nimble](https://github.com/programmersd21/nimble)**                 | pythonic systems language · LLVM-powered native binaries · static typing · full compiler toolchain |         [![Stars](https://img.shields.io/github/stars/programmersd21/nimble?style=for-the-badge\&color=7c3aed\&labelColor=0b0f19\&logo=github)](https://github.com/programmersd21/nimble/stargazers)         |
+|  📈 | **[curv](https://github.com/programmersd21/curv)**                     | terminal bezier workstation · live curve visualizer · animation analytics · css/swiftui exports    |           [![Stars](https://img.shields.io/github/stars/programmersd21/curv?style=for-the-badge\&color=f59e0b\&labelColor=0b0f19\&logo=github)](https://github.com/programmersd21/curv/stargazers)           |
+|  🎨 | **[bangen](https://github.com/programmersd21/bangen)**                 | ascii banner renderer · 30+ composable effects · live TUI · animated GIF export                    |         [![Stars](https://img.shields.io/github/stars/programmersd21/bangen?style=for-the-badge\&color=a78bfa\&labelColor=0b0f19\&logo=github)](https://github.com/programmersd21/bangen/stargazers)         |
+|  ⚡  | **[pyratatui](https://github.com/pyratatui/pyratatui)**                | ratatui from python · pyo3 bindings · native render speed · wheel-distributed                      |           [![Stars](https://img.shields.io/github/stars/pyratatui/pyratatui?style=for-the-badge\&color=ce422b\&labelColor=0b0f19\&logo=github)](https://github.com/pyratatui/pyratatui/stargazers)           |
+|  📝 | **[kairo](https://github.com/programmersd21/kairo)**                   | terminal task manager · sqlite · git sync · lua plugins · keyboard-first                           |          [![Stars](https://img.shields.io/github/stars/programmersd21/kairo?style=for-the-badge\&color=00ADD8\&labelColor=0b0f19\&logo=github)](https://github.com/programmersd21/kairo/stargazers)          |
+|  🎬 | **[efficientmanim](https://github.com/programmersd21/EfficientManim)** | node-based manim editor · visual pipeline · live preview · AI generation                           | [![Stars](https://img.shields.io/github/stars/programmersd21/EfficientManim?style=for-the-badge\&color=41CD52\&labelColor=0b0f19\&logo=github)](https://github.com/programmersd21/EfficientManim/stargazers) |
+| 🏝️ | **[nimbus](https://github.com/programmersd21/nimbus)**                 | dynamic island for windows · physics animations · media + system integration · sleek UI            |         [![Stars](https://img.shields.io/github/stars/programmersd21/nimbus?style=for-the-badge\&color=58a6ff\&labelColor=0b0f19\&logo=github)](https://github.com/programmersd21/nimbus/stargazers)         |
 
 <br>
 
@@ -65,5 +68,5 @@
 
 ### 🤝 collaborate
 
-- **interested in:** rust ↔ python bridges &nbsp;·&nbsp; terminal UIs &nbsp;·&nbsp; plugin systems
-- 📬 open an issue on any repo or [send an email](mailto:geniussantu1983@gmail.com) — fastest way to reach me
+* **interested in:** language tooling  ·  rust ↔ python bridges  ·  terminal UIs  ·  plugin systems
+* 📬 open an issue on any repo or [send an email](mailto:geniussantu1983@gmail.com) = fastest way to reach me
