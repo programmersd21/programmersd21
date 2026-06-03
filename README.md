@@ -59,6 +59,10 @@
   <img src="https://streak-stats.demolab.com?user=programmersd21&theme=midnight-purple&hide_border=true&background=0b0f19&ring=a78bfa&fire=ce422b&currStreakLabel=a78bfa" />
 </p>
 
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=programmersd21&bg_color=0b0f19&color=a78bfa&line=a78bfa&point=ce422b&area=true&area_color=a78bfa&hide_border=true" width="100%" />
+</p>
+
 <br>
 
 ### 🧠 philosophy
