@@ -40,7 +40,7 @@
 
 ### 🚀 projects
 
-|     | project                                                                | what it does                                                                                       |                                                                                                       ⭐                                                                                                      |
+|     | project                                                                | what it does                                                                                       |                                                                                                       ⭐                                                                                                      |
 | :-: | :--------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 |  🧠 | **[nimble](https://github.com/programmersd21/nimble)**                 | pythonic systems language · LLVM-powered native binaries · static typing · full compiler toolchain |         [![Stars](https://img.shields.io/github/stars/programmersd21/nimble?style=for-the-badge\&color=7c3aed\&labelColor=0b0f19\&logo=github)](https://github.com/programmersd21/nimble/stargazers)         |
 |  📈 | **[curv](https://github.com/programmersd21/curv)**                     | terminal bezier workstation · live curve visualizer · animation analytics · css/swiftui exports    |           [![Stars](https://img.shields.io/github/stars/programmersd21/curv?style=for-the-badge\&color=f59e0b\&labelColor=0b0f19\&logo=github)](https://github.com/programmersd21/curv/stargazers)           |
@@ -49,6 +49,7 @@
 |  📝 | **[kairo](https://github.com/programmersd21/kairo)**                   | terminal task manager · sqlite · git sync · lua plugins · keyboard-first                           |          [![Stars](https://img.shields.io/github/stars/programmersd21/kairo?style=for-the-badge\&color=00ADD8\&labelColor=0b0f19\&logo=github)](https://github.com/programmersd21/kairo/stargazers)          |
 |  🎬 | **[efficientmanim](https://github.com/programmersd21/EfficientManim)** | node-based manim editor · visual pipeline · live preview · AI generation                           | [![Stars](https://img.shields.io/github/stars/programmersd21/EfficientManim?style=for-the-badge\&color=41CD52\&labelColor=0b0f19\&logo=github)](https://github.com/programmersd21/EfficientManim/stargazers) |
 | 🏝️ | **[nimbus](https://github.com/programmersd21/nimbus)**                 | dynamic island for windows · physics animations · media + system integration · sleek UI            |         [![Stars](https://img.shields.io/github/stars/programmersd21/nimbus?style=for-the-badge\&color=58a6ff\&labelColor=0b0f19\&logo=github)](https://github.com/programmersd21/nimbus/stargazers)         |
+|  🌿 | **[mint](https://github.com/programmersd21/mint)**                     | terminal-native modrinth client · browse/search/download mods · mrpack installer · sqlite cache   |           [![Stars](https://img.shields.io/github/stars/programmersd21/mint?style=for-the-badge\&color=4CAF50\&labelColor=0b0f19\&logo=github)](https://github.com/programmersd21/mint/stargazers)           |
 
 <br>
 
@@ -68,5 +69,5 @@
 
 ### 🤝 collaborate
 
-* **interested in:** language tooling  ·  rust ↔ python bridges  ·  terminal UIs  ·  plugin systems
+* **interested in:** language tooling  ·  rust ↔ python bridges  ·  terminal UIs  ·  plugin systems
 * 📬 open an issue on any repo or [send an email](mailto:geniussantu1983@gmail.com) = fastest way to reach me
