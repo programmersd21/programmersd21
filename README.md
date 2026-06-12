@@ -51,6 +51,8 @@
 | 🏝️ | **[nimbus](https://github.com/programmersd21/nimbus)**                 | dynamic island for windows · physics animations · media + system integration · sleek UI            |         [![Stars](https://img.shields.io/github/stars/programmersd21/nimbus?style=for-the-badge\&color=58a6ff\&labelColor=0b0f19\&logo=github)](https://github.com/programmersd21/nimbus/stargazers)         |
 |  🌿 | **[mint](https://github.com/programmersd21/mint)**                     | terminal-native modrinth client · browse/search/download mods · mrpack installer · sqlite cache   |           [![Stars](https://img.shields.io/github/stars/programmersd21/mint?style=for-the-badge\&color=4CAF50\&labelColor=0b0f19\&logo=github)](https://github.com/programmersd21/mint/stargazers)           |
 
+**If you find my projects useful, consider supporting their development through GitHub Sponsors ❤️**
+
 <br>
 
 ### 📊 stats
