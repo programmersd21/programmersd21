@@ -38,9 +38,9 @@ def main():
 
     for project, count in counts.items():
         pattern = re.compile(
-            rf'(<text\\b[^>]*\\bdata-star-count="{re.escape(project)}"[^>]*>)[^<]*(</text>)'
+            rf'(<text\b[^>]*\bdata-star-count="{re.escape(project)}"[^>]*>)[^<]*(</text>)'
         )
-        svg, replacements = pattern.subn(rf"\\g<1>{count}\\g<2>", svg)
+        svg, replacements = pattern.subn(rf"\g<1>{count}\g<2>", svg)
         if replacements != 2:
             raise RuntimeError(
                 f"Expected 2 SVG labels for {project}, updated {replacements}"
@@ -48,8 +48,8 @@ def main():
 
     total = sum(counts.values())
     svg, replacements = re.subn(
-        r'(<text\\b[^>]*\\bdata-total-stars="true"[^>]*>)[^<]*(</text>)',
-        rf"\\g<1>{total} stars across six projects\\g<2>",
+        r'(<text\b[^>]*\bdata-total-stars="true"[^>]*>)[^<]*(</text>)',
+        rf"\g<1>{total} stars across six projects\g<2>",
         svg,
     )
     if replacements != 1:
