@@ -22,42 +22,42 @@
 <circle cx="64" cy="26" r="4.5" fill="#19A7A0"/>
 <text class="sans" x="80" y="31" font-size="16" font-weight="600" letter-spacing="-0.2" fill="#3A3744">flow</text>
 <text class="sans" x="80" y="51" font-size="12.5" fill="#7A7686">see ur network breathe</text>
-<text class="sans" x="350" y="31" font-size="12.5" text-anchor="end" fill="#7A7686" data-star-count="flow"></text>14692
+<text class="sans" x="350" y="31" font-size="12.5" text-anchor="end" fill="#7A7686" data-star-count="flow">466</text>14692
 <path transform="translate(320 26.6)" d="M0 -5 L1.5 -1.6 L5 -1.4 L2.3 0.9 L3.1 4.4 L0 2.5 L-3.1 4.4 L-2.3 0.9 L-5 -1.4 L-1.5 -1.6 Z" fill="#F2B13C" fill-opacity="0.9"/>
 </g>
 <g transform="translate(0 204)">
 <circle cx="64" cy="26" r="4.5" fill="#8B6CF0"/>
 <text class="sans" x="80" y="31" font-size="16" font-weight="600" letter-spacing="-0.2" fill="#3A3744">wallr</text>
 <text class="sans" x="80" y="51" font-size="12.5" fill="#7A7686">animated wallpapers for wayland</text>
-<text class="sans" x="350" y="31" font-size="12.5" text-anchor="end" fill="#7A7686" data-star-count="wallr"></text>15288
+<text class="sans" x="350" y="31" font-size="12.5" text-anchor="end" fill="#7A7686" data-star-count="wallr">203</text>15288
 <path transform="translate(320 26.6)" d="M0 -5 L1.5 -1.6 L5 -1.4 L2.3 0.9 L3.1 4.4 L0 2.5 L-3.1 4.4 L-2.3 0.9 L-5 -1.4 L-1.5 -1.6 Z" fill="#F2B13C" fill-opacity="0.9"/>
 </g>
 <g transform="translate(0 280)">
 <circle cx="64" cy="26" r="4.5" fill="#3B82F6"/>
 <text class="sans" x="80" y="31" font-size="16" font-weight="600" letter-spacing="-0.2" fill="#3A3744">pyratatui</text>
 <text class="sans" x="80" y="51" font-size="12.5" fill="#7A7686">ratatui, but for python</text>
-<text class="sans" x="350" y="31" font-size="12.5" text-anchor="end" fill="#7A7686" data-star-count="pyratatui"></text>15881
+<text class="sans" x="350" y="31" font-size="12.5" text-anchor="end" fill="#7A7686" data-star-count="pyratatui">173</text>15881
 <path transform="translate(320 26.6)" d="M0 -5 L1.5 -1.6 L5 -1.4 L2.3 0.9 L3.1 4.4 L0 2.5 L-3.1 4.4 L-2.3 0.9 L-5 -1.4 L-1.5 -1.6 Z" fill="#F2B13C" fill-opacity="0.9"/>
 </g>
 <g transform="translate(0 356)">
 <circle cx="64" cy="26" r="4.5" fill="#E5658A"/>
 <text class="sans" x="80" y="31" font-size="16" font-weight="600" letter-spacing="-0.2" fill="#3A3744">mew</text>
 <text class="sans" x="80" y="51" font-size="12.5" fill="#7A7686">a terminal card for your project</text>
-<text class="sans" x="350" y="31" font-size="12.5" text-anchor="end" fill="#7A7686" data-star-count="mew"></text>16481
+<text class="sans" x="350" y="31" font-size="12.5" text-anchor="end" fill="#7A7686" data-star-count="mew">66</text>16481
 <path transform="translate(327 26.6)" d="M0 -5 L1.5 -1.6 L5 -1.4 L2.3 0.9 L3.1 4.4 L0 2.5 L-3.1 4.4 L-2.3 0.9 L-5 -1.4 L-1.5 -1.6 Z" fill="#F2B13C" fill-opacity="0.9"/>
 </g>
 <g transform="translate(0 432)">
 <circle cx="64" cy="26" r="4.5" fill="#3FAE7A"/>
 <text class="sans" x="80" y="31" font-size="16" font-weight="600" letter-spacing="-0.2" fill="#3A3744">venti</text>
 <text class="sans" x="80" y="51" font-size="12.5" fill="#7A7686">fast, quiet terminal multiplexer</text>
-<text class="sans" x="350" y="31" font-size="12.5" text-anchor="end" fill="#7A7686" data-star-count="venti"></text>17077
+<text class="sans" x="350" y="31" font-size="12.5" text-anchor="end" fill="#7A7686" data-star-count="venti">14</text>17077
 <path transform="translate(327 26.6)" d="M0 -5 L1.5 -1.6 L5 -1.4 L2.3 0.9 L3.1 4.4 L0 2.5 L-3.1 4.4 L-2.3 0.9 L-5 -1.4 L-1.5 -1.6 Z" fill="#F2B13C" fill-opacity="0.9"/>
 </g>
 <g transform="translate(0 508)">
 <circle cx="64" cy="26" r="4.5" fill="#F08A4B"/>
 <text class="sans" x="80" y="31" font-size="16" font-weight="600" letter-spacing="-0.2" fill="#3A3744">scribe</text>
 <text class="sans" x="80" y="51" font-size="12.5" fill="#7A7686">offline speech to text in the terminal</text>
-<text class="sans" x="350" y="31" font-size="12.5" text-anchor="end" fill="#7A7686" data-star-count="scribe"></text>17682
+<text class="sans" x="350" y="31" font-size="12.5" text-anchor="end" fill="#7A7686" data-star-count="scribe">8</text>17682
 <path transform="translate(334 26.6)" d="M0 -5 L1.5 -1.6 L5 -1.4 L2.3 0.9 L3.1 4.4 L0 2.5 L-3.1 4.4 L-2.3 0.9 L-5 -1.4 L-1.5 -1.6 Z" fill="#F2B13C" fill-opacity="0.9"/>
 </g>
 </g>
@@ -71,7 +71,7 @@
 <circle cx="38" cy="36" r="4" fill="#19A7A0"/><text class="mono" x="50" y="40" font-size="11.5" fill="#7A7686">go, bubble tea</text>
 <text class="sans" x="480" y="40" font-size="12.5" text-anchor="end" fill="#7A7686">13</text>
 <g transform="translate(454 36)" fill="none" stroke="#7A7686" stroke-width="1.3" stroke-linecap="round"><circle cx="-3" cy="-4" r="1.6"/><circle cx="3" cy="-4" r="1.6"/><circle cx="0" cy="4" r="1.6"/><path d="M-3 -2.4 V-0.5 Q-3 1.5 0 1.5 Q3 1.5 3 -0.5 V-2.4 M0 1.5 V2.4"/></g>
-<text class="sans" x="432" y="40" font-size="12.5" text-anchor="end" fill="#7A7686" data-star-count="flow"></text>19702
+<text class="sans" x="432" y="40" font-size="12.5" text-anchor="end" fill="#7A7686" data-star-count="flow">466</text>19702
 <path transform="translate(402 35.6)" d="M0 -5 L1.5 -1.6 L5 -1.4 L2.3 0.9 L3.1 4.4 L0 2.5 L-3.1 4.4 L-2.3 0.9 L-5 -1.4 L-1.5 -1.6 Z" fill="#F2B13C"/>
 </g>
 <g><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.00000;0.00190;0.01619;0.16786;0.16810;1.00000" calcMode="spline" keySplines="0 0 1 1;0.2 0.8 0.2 1;0 0 1 1;0 0 1 1;0 0 1 1" dur="42.0s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 12;0 12;0 -1.08;0 0;0 0;0 12;0 12" keyTimes="0.00000;0.00190;0.01405;0.02214;0.16786;0.16810;1.00000" calcMode="spline" keySplines="0 0 1 1;0.2 0.8 0.3 1;0.4 0 0.2 1;0 0 1 1;0 0 1 1;0 0 1 1" dur="42.0s" repeatCount="indefinite"/>
@@ -103,7 +103,7 @@
 <circle cx="38" cy="36" r="4" fill="#8B6CF0"/><text class="mono" x="50" y="40" font-size="11.5" fill="#7A7686">rust, wgpu</text>
 <text class="sans" x="480" y="40" font-size="12.5" text-anchor="end" fill="#7A7686">7</text>
 <g transform="translate(461 36)" fill="none" stroke="#7A7686" stroke-width="1.3" stroke-linecap="round"><circle cx="-3" cy="-4" r="1.6"/><circle cx="3" cy="-4" r="1.6"/><circle cx="0" cy="4" r="1.6"/><path d="M-3 -2.4 V-0.5 Q-3 1.5 0 1.5 Q3 1.5 3 -0.5 V-2.4 M0 1.5 V2.4"/></g>
-<text class="sans" x="439" y="40" font-size="12.5" text-anchor="end" fill="#7A7686" data-star-count="wallr"></text>41592
+<text class="sans" x="439" y="40" font-size="12.5" text-anchor="end" fill="#7A7686" data-star-count="wallr">203</text>41592
 <path transform="translate(409 35.6)" d="M0 -5 L1.5 -1.6 L5 -1.4 L2.3 0.9 L3.1 4.4 L0 2.5 L-3.1 4.4 L-2.3 0.9 L-5 -1.4 L-1.5 -1.6 Z" fill="#F2B13C"/>
 </g>
 <g><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.00000;0.16857;0.18286;0.33452;0.33476;1.00000" calcMode="spline" keySplines="0 0 1 1;0.2 0.8 0.2 1;0 0 1 1;0 0 1 1;0 0 1 1" dur="42.0s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 12;0 12;0 -1.08;0 0;0 0;0 12;0 12" keyTimes="0.00000;0.16857;0.18071;0.18881;0.33452;0.33476;1.00000" calcMode="spline" keySplines="0 0 1 1;0.2 0.8 0.3 1;0.4 0 0.2 1;0 0 1 1;0 0 1 1;0 0 1 1" dur="42.0s" repeatCount="indefinite"/>
@@ -135,7 +135,7 @@
 <circle cx="38" cy="36" r="4" fill="#3B82F6"/><text class="mono" x="50" y="40" font-size="11.5" fill="#7A7686">rust, pyo3</text>
 <text class="sans" x="480" y="40" font-size="12.5" text-anchor="end" fill="#7A7686">9</text>
 <g transform="translate(461 36)" fill="none" stroke="#7A7686" stroke-width="1.3" stroke-linecap="round"><circle cx="-3" cy="-4" r="1.6"/><circle cx="3" cy="-4" r="1.6"/><circle cx="0" cy="4" r="1.6"/><path d="M-3 -2.4 V-0.5 Q-3 1.5 0 1.5 Q3 1.5 3 -0.5 V-2.4 M0 1.5 V2.4"/></g>
-<text class="sans" x="439" y="40" font-size="12.5" text-anchor="end" fill="#7A7686" data-star-count="pyratatui"></text>50872
+<text class="sans" x="439" y="40" font-size="12.5" text-anchor="end" fill="#7A7686" data-star-count="pyratatui">173</text>50872
 <path transform="translate(409 35.6)" d="M0 -5 L1.5 -1.6 L5 -1.4 L2.3 0.9 L3.1 4.4 L0 2.5 L-3.1 4.4 L-2.3 0.9 L-5 -1.4 L-1.5 -1.6 Z" fill="#F2B13C"/>
 </g>
 <g><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.00000;0.33524;0.34952;0.50119;0.50143;1.00000" calcMode="spline" keySplines="0 0 1 1;0.2 0.8 0.2 1;0 0 1 1;0 0 1 1;0 0 1 1" dur="42.0s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 12;0 12;0 -1.08;0 0;0 0;0 12;0 12" keyTimes="0.00000;0.33524;0.34738;0.35548;0.50119;0.50143;1.00000" calcMode="spline" keySplines="0 0 1 1;0.2 0.8 0.3 1;0.4 0 0.2 1;0 0 1 1;0 0 1 1;0 0 1 1" dur="42.0s" repeatCount="indefinite"/>
@@ -167,7 +167,7 @@
 <circle cx="38" cy="36" r="4" fill="#E5658A"/><text class="mono" x="50" y="40" font-size="11.5" fill="#7A7686">rust</text>
 <text class="sans" x="480" y="40" font-size="12.5" text-anchor="end" fill="#7A7686">1</text>
 <g transform="translate(461 36)" fill="none" stroke="#7A7686" stroke-width="1.3" stroke-linecap="round"><circle cx="-3" cy="-4" r="1.6"/><circle cx="3" cy="-4" r="1.6"/><circle cx="0" cy="4" r="1.6"/><path d="M-3 -2.4 V-0.5 Q-3 1.5 0 1.5 Q3 1.5 3 -0.5 V-2.4 M0 1.5 V2.4"/></g>
-<text class="sans" x="439" y="40" font-size="12.5" text-anchor="end" fill="#7A7686" data-star-count="mew"></text>67405
+<text class="sans" x="439" y="40" font-size="12.5" text-anchor="end" fill="#7A7686" data-star-count="mew">66</text>67405
 <path transform="translate(416 35.6)" d="M0 -5 L1.5 -1.6 L5 -1.4 L2.3 0.9 L3.1 4.4 L0 2.5 L-3.1 4.4 L-2.3 0.9 L-5 -1.4 L-1.5 -1.6 Z" fill="#F2B13C"/>
 </g>
 <g><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.00000;0.50190;0.51619;0.66786;0.66810;1.00000" calcMode="spline" keySplines="0 0 1 1;0.2 0.8 0.2 1;0 0 1 1;0 0 1 1;0 0 1 1" dur="42.0s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 12;0 12;0 -1.08;0 0;0 0;0 12;0 12" keyTimes="0.00000;0.50190;0.51405;0.52214;0.66786;0.66810;1.00000" calcMode="spline" keySplines="0 0 1 1;0.2 0.8 0.3 1;0.4 0 0.2 1;0 0 1 1;0 0 1 1;0 0 1 1" dur="42.0s" repeatCount="indefinite"/>
@@ -199,7 +199,7 @@
 <circle cx="38" cy="36" r="4" fill="#3FAE7A"/><text class="mono" x="50" y="40" font-size="11.5" fill="#7A7686">rust, ratatui</text>
 <text class="sans" x="480" y="40" font-size="12.5" text-anchor="end" fill="#7A7686">1</text>
 <g transform="translate(461 36)" fill="none" stroke="#7A7686" stroke-width="1.3" stroke-linecap="round"><circle cx="-3" cy="-4" r="1.6"/><circle cx="3" cy="-4" r="1.6"/><circle cx="0" cy="4" r="1.6"/><path d="M-3 -2.4 V-0.5 Q-3 1.5 0 1.5 Q3 1.5 3 -0.5 V-2.4 M0 1.5 V2.4"/></g>
-<text class="sans" x="439" y="40" font-size="12.5" text-anchor="end" fill="#7A7686" data-star-count="venti"></text>80248
+<text class="sans" x="439" y="40" font-size="12.5" text-anchor="end" fill="#7A7686" data-star-count="venti">14</text>80248
 <path transform="translate(416 35.6)" d="M0 -5 L1.5 -1.6 L5 -1.4 L2.3 0.9 L3.1 4.4 L0 2.5 L-3.1 4.4 L-2.3 0.9 L-5 -1.4 L-1.5 -1.6 Z" fill="#F2B13C"/>
 </g>
 <g><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.00000;0.66857;0.68286;0.83452;0.83476;1.00000" calcMode="spline" keySplines="0 0 1 1;0.2 0.8 0.2 1;0 0 1 1;0 0 1 1;0 0 1 1" dur="42.0s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 12;0 12;0 -1.08;0 0;0 0;0 12;0 12" keyTimes="0.00000;0.66857;0.68071;0.68881;0.83452;0.83476;1.00000" calcMode="spline" keySplines="0 0 1 1;0.2 0.8 0.3 1;0.4 0 0.2 1;0 0 1 1;0 0 1 1;0 0 1 1" dur="42.0s" repeatCount="indefinite"/>
@@ -229,7 +229,7 @@
 <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0.00000;0.83333;0.83357;0.99167;1.00000" calcMode="spline" keySplines="0 0 1 1;0 0 1 1;0 0 1 1;0.2 0.8 0.2 1" dur="42.0s" repeatCount="indefinite"/>
 <g><animate attributeName="opacity" values="0;0;1;1" keyTimes="0.00000;0.83333;0.84762;1.00000" calcMode="spline" keySplines="0 0 1 1;0.2 0.8 0.2 1;0 0 1 1" dur="42.0s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 10;0 10;0 -0.9;0 0;0 0" keyTimes="0.00000;0.83333;0.84548;0.85357;1.00000" calcMode="spline" keySplines="0 0 1 1;0.2 0.8 0.3 1;0.4 0 0.2 1;0 0 1 1" dur="42.0s" repeatCount="indefinite"/>
 <circle cx="38" cy="36" r="4" fill="#F08A4B"/><text class="mono" x="50" y="40" font-size="11.5" fill="#7A7686">rust, whisper.cpp, ratatui</text>
-<text class="sans" x="480" y="40" font-size="12.5" text-anchor="end" fill="#7A7686" data-star-count="scribe"></text>95280
+<text class="sans" x="480" y="40" font-size="12.5" text-anchor="end" fill="#7A7686" data-star-count="scribe">8</text>95280
 <path transform="translate(464 35.6)" d="M0 -5 L1.5 -1.6 L5 -1.4 L2.3 0.9 L3.1 4.4 L0 2.5 L-3.1 4.4 L-2.3 0.9 L-5 -1.4 L-1.5 -1.6 Z" fill="#F2B13C"/>
 </g>
 <g><animate attributeName="opacity" values="0;0;1;1" keyTimes="0.00000;0.83524;0.84952;1.00000" calcMode="spline" keySplines="0 0 1 1;0.2 0.8 0.2 1;0 0 1 1" dur="42.0s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 12;0 12;0 -1.08;0 0;0 0" keyTimes="0.00000;0.83524;0.84738;0.85548;1.00000" calcMode="spline" keySplines="0 0 1 1;0.2 0.8 0.3 1;0.4 0 0.2 1;0 0 1 1" dur="42.0s" repeatCount="indefinite"/>
