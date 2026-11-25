@@ -1,6 +1,10 @@
 name: Update profile star counts
 
 on:
+  push:
+    paths:
+      - ".github/workflows/update-stars.yml"
+      - ".github/scripts/update_stars.py"
   schedule:
     - cron: "17 */6 * * *"
   workflow_dispatch:
