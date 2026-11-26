@@ -70,15 +70,15 @@ async function main() {
   let svg = await readFile(svgPath, "utf8");
 
   for (const repository of repositories) {
-    svg = replaceCount(svg, "data-star-count", repository, number.format(stats[repository].stars), 2);
+    svg = replaceCount(svg, "data-star-count", repository, number.format(stats[repository].stars), 1);
     svg = replaceCount(svg, "data-fork-count", repository, number.format(stats[repository].forks), 1);
   }
 
   const totalStars = Object.values(stats).reduce((sum, item) => sum + item.stars, 0);
   const totalForks = Object.values(stats).reduce((sum, item) => sum + item.forks, 0);
 
-  svg = replaceCount(svg, "data-total-stars", "true", number.format(totalStars) + " stars across " + repositories.length + " projects", 1);
-  svg = replaceCount(svg, "data-total-forks", "true", number.format(totalForks) + " forks across " + repositories.length + " projects", 1);
+  svg = replaceCount(svg, "data-total-stars", "true", number.format(totalStars), 1);
+  svg = replaceCount(svg, "data-total-forks", "true", number.format(totalForks), 1);
 
   await writeFile(svgPath, svg, "utf8");
 
