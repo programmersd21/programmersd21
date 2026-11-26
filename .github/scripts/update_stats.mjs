@@ -46,7 +46,7 @@ async function fetchRepositoryStats(repository) {
 
 function replaceCount(svg, attribute, project, value, expected) {
   const pattern = new RegExp(
-    '(<text\\b[^>]*\\b' + attribute + '="' + project + '"[^>]*>)[^<]*(</text>)',
+    '(<text\\b[^>]*\\b' + attribute + '="' + project + '"[^>]*>)[\\s\\S]*?(</text>)',
     "g",
   );
   let replacements = 0;
@@ -71,7 +71,7 @@ async function main() {
 
   for (const repository of repositories) {
     svg = replaceCount(svg, "data-star-count", repository, number.format(stats[repository].stars), 1);
-    svg = replaceCount(svg, "data-fork-count", repository, number.format(stats[repository].forks), 1);
+    svg = replaceCount(svg, "data-fork-count", repository, number.format(stats[repository].forks) + " forks", 1);
   }
 
   const totalStars = Object.values(stats).reduce((sum, item) => sum + item.stars, 0);
