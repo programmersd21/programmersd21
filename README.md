@@ -1,1 +1,1 @@
-![Animated project overview with live GitHub stars and forks, detailed project previews and feature notes](profile.svg)
+![Monochrome portfolio dashboard with featured Ratatui skill, selected open-source projects and live GitHub statistics](profile.svg)
