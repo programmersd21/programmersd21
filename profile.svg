@@ -1,129 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="960" viewBox="0 0 960 960" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1160" viewBox="0 0 1000 1160" role="img" aria-labelledby="title desc">
 <title id="title">Soumalya — independent software builder</title>
-<desc id="desc">A monochrome portfolio dashboard featuring six open-source projects, live GitHub stars and forks, and a closer look at ratatui-skill.</desc>
-<defs>
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&amp;display=swap');
-.sans{font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
-.serif{font-family:"Instrument Serif",Georgia,"Times New Roman",serif}
-.mono{font-family:"IBM Plex Mono","SFMono-Regular",Consolas,monospace}
-.micro{font-size:9px;letter-spacing:1.25px}
-.tiny{font-size:9px;letter-spacing:.45px}
-.body{font-size:11px}
-.project-title{font-size:19px;font-weight:550;letter-spacing:-.55px}
-.rule{stroke:#E5E5E2;stroke-width:1}
-</style>
-</defs>
-<rect width="960" height="960" fill="#F8F8F6"/>
+<desc id="desc">A monochrome portfolio dashboard with a featured Ratatui skill project, five other open-source projects, live repository statistics, and a compact technology overview.</desc>
+<defs><style>
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&amp;family=Instrument+Sans:wght@400;500;600;700&amp;family=Instrument+Serif:ital@0;1&amp;display=swap');
+.sans{font-family:'Instrument Sans',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}
+.serif{font-family:'Instrument Serif',Georgia,'Times New Roman',serif}
+.mono{font-family:'IBM Plex Mono','SFMono-Regular',Consolas,monospace}
+.eyebrow{font-size:10px;font-weight:500;letter-spacing:1.45px}
+.rule{stroke:#E5E5E0;stroke-width:1}
+.card{fill:#FFFFFF;stroke:#E5E5E0;stroke-width:1}
+.card-title{font-size:22px;font-weight:600;letter-spacing:-.65px;fill:#191918}
+.card-copy{font-size:13px;fill:#686862}
+.card-meta{font-size:9px;letter-spacing:.65px;fill:#85857F}
+</style></defs>
+<rect width="1000" height="1160" fill="#F7F7F5"/>
 <g class="sans">
-<text x="48" y="43" font-size="12" font-weight="650" letter-spacing="2.1" fill="#171717">SOUMALYA</text>
-<circle cx="150" cy="39" r="2" fill="#A3A39D"/>
-<text x="162" y="43" class="mono micro" fill="#777771">INDEPENDENT SOFTWARE BUILDER</text>
-<text x="912" y="43" class="mono micro" text-anchor="end" fill="#777771">OPEN SOURCE / 2026</text>
-<line x1="48" y1="62" x2="912" y2="62" class="rule"/>
-<text x="48" y="106" class="mono micro" fill="#777771">A SMALL COLLECTION OF USEFUL THINGS</text>
-<text x="46" y="174" class="serif" font-size="62" letter-spacing="-1.15" fill="#171717">Software, built with intent.</text>
-<text x="50" y="211" font-size="14" fill="#666660">I build tools for the terminal, developer workflows, and the people who use them.</text>
-<text x="50" y="235" font-size="14" fill="#666660">Working across Rust, Go and Python. Focused on useful details and dependable software.</text>
+<text x="52" y="47" font-size="13" font-weight="700" letter-spacing="1.6" fill="#191918">SOUMALYA</text>
+<circle cx="157" cy="42" r="2" fill="#A5A59F"/>
+<text x="170" y="46" class="mono eyebrow" fill="#777771">INDEPENDENT SOFTWARE BUILDER</text>
+<a xlink:href="https://github.com/programmersd21" target="_blank"><text x="948" y="46" class="mono eyebrow" text-anchor="end" fill="#555550">GITHUB ↗</text></a>
+<line x1="52" y1="68" x2="948" y2="68" class="rule"/>
+<text x="52" y="111" class="mono eyebrow" fill="#777771">SELECTED WORK / OPEN SOURCE</text>
+<text x="48" y="190" class="serif" font-size="76" letter-spacing="-1.4" fill="#191918">Useful software.</text>
+<text x="48" y="255" class="serif" font-size="76" font-style="italic" letter-spacing="-1.4" fill="#191918">Thoughtfully made.</text>
+<text x="52" y="296" font-size="15" fill="#686862">I build tools for terminals, developer workflows, and the people who use them.</text>
+<text x="52" y="320" font-size="15" fill="#686862">Working across Rust, Go and Python, with a focus on craft and reliability.</text>
 </g>
 <g>
-<line x1="660" y1="258" x2="912" y2="258" class="rule"/>
-<line x1="660" y1="122" x2="660" y2="258" class="rule"/>
-<line x1="786" y1="122" x2="786" y2="258" class="rule"/>
-<text x="678" y="145" class="mono micro" fill="#85857F">PROJECTS</text>
-<text x="678" y="207" class="serif" font-size="48" fill="#171717">06</text>
-<text x="804" y="145" class="mono micro" fill="#85857F">STARS</text>
-<text x="804" y="207" class="serif" font-size="48" fill="#171717" data-total-stars="true">0 stars across six projects</text>
-<text x="678" y="241" class="mono tiny" fill="#85857F">FORKS</text>
-<text x="804" y="241" class="mono" font-size="12" fill="#171717" data-total-forks="true">0 forks across six projects</text>
+<line x1="700" y1="112" x2="948" y2="112" class="rule"/><line x1="700" y1="112" x2="700" y2="328" class="rule"/><line x1="824" y1="112" x2="824" y2="328" class="rule"/>
+<text x="720" y="140" class="mono eyebrow" fill="#777771">PROJECTS</text><text x="720" y="193" class="serif" font-size="48" fill="#191918">06</text>
+<text x="844" y="140" class="mono eyebrow" fill="#777771">STARS</text><text x="844" y="193" class="serif" font-size="48" fill="#191918" data-total-stars="true">931</text>
+<line x1="720" y1="216" x2="948" y2="216" class="rule"/>
+<text x="720" y="248" class="mono eyebrow" fill="#777771">FORKS</text><text x="844" y="255" class="mono" font-size="18" font-weight="500" fill="#191918" data-total-forks="true">30</text>
+<text x="720" y="300" class="mono" font-size="9" letter-spacing=".5px" fill="#85857F">LIVE REPOSITORY TOTALS</text>
 </g>
-<line x1="48" y1="285" x2="912" y2="285" class="rule"/>
-<g class="sans">
-<text x="48" y="322" class="mono micro" fill="#777771">01 / FEATURED PROJECT</text>
-<text x="912" y="322" class="mono micro" text-anchor="end" fill="#777771">RATATUI ECOSYSTEM</text>
-</g>
+<line x1="52" y1="354" x2="948" y2="354" class="rule"/>
+<g class="sans"><text x="52" y="390" class="mono eyebrow" fill="#777771">01 / FEATURED PROJECT</text><text x="948" y="390" class="mono eyebrow" text-anchor="end" fill="#777771">RATATUI ECOSYSTEM</text></g>
 <g>
-<rect x="48" y="344" width="864" height="250" rx="13" fill="#171717"/>
-<line x1="574" y1="366" x2="574" y2="572" stroke="#3A3A38" stroke-width="1"/>
-<text x="78" y="382" class="mono micro" fill="#A7A7A0">RATATUI-SKILL  /  AGENT SKILL</text>
-<text x="76" y="444" class="serif" font-size="48" letter-spacing="-.6" fill="#F7F7F4">Build terminal UIs</text>
-<text x="76" y="489" class="serif" font-size="48" letter-spacing="-.6" font-style="italic" fill="#F7F7F4">that hold up.</text>
-<text x="80" y="527" class="sans" font-size="13" fill="#B8B8B2">A practical skill for building deliberate Ratatui interfaces</text>
-<text x="80" y="548" class="sans" font-size="13" fill="#B8B8B2">with current APIs, tested code, and no filler.</text>
-<text x="80" y="576" class="mono tiny" fill="#A7A7A0">GITHUB.COM/PROGRAMMERSD21/RATATUI-SKILL</text>
-<text x="606" y="383" class="mono micro" fill="#A7A7A0">THE BUILD STANDARD</text>
-<g class="sans">
-<line x1="620" y1="409" x2="620" y2="548" stroke="#555550" stroke-width="1"/>
-<g fill="#F7F7F4">
-<circle cx="620" cy="416" r="3.2"/><circle cx="620" cy="448" r="3.2"/><circle cx="620" cy="480" r="3.2"/><circle cx="620" cy="512" r="3.2"/><circle cx="620" cy="544" r="3.2"/>
+<rect x="52" y="414" width="896" height="282" rx="9" fill="#191918"/>
+<line x1="578" y1="438" x2="578" y2="672" stroke="#3A3A37"/>
+<text x="82" y="452" class="mono eyebrow" fill="#A5A59F">RATATUI-SKILL / AGENT SKILL</text>
+<text x="78" y="522" class="serif" font-size="54" letter-spacing="-.6" fill="#F7F7F5">Build terminal UIs</text>
+<text x="78" y="574" class="serif" font-size="54" font-style="italic" letter-spacing="-.6" fill="#F7F7F5">that hold up.</text>
+<text x="82" y="615" class="sans" font-size="14" fill="#C2C2BC">A practical skill for building deliberate Ratatui interfaces</text>
+<text x="82" y="638" class="sans" font-size="14" fill="#C2C2BC">with current APIs, tested code, and no filler.</text>
+<text x="82" y="673" class="mono" font-size="9" letter-spacing=".45px" fill="#A5A59F"><tspan data-star-count="ratatui-skill">15</tspan> STARS</text>
+<text x="171" y="673" class="mono" font-size="9" letter-spacing=".45px" fill="#A5A59F"><tspan data-fork-count="ratatui-skill">0</tspan> FORKS</text>
+<text x="542" y="673" class="mono" font-size="9" text-anchor="end" fill="#A5A59F">GITHUB.COM/PROGRAMMERSD21/RATATUI-SKILL</text>
+<text x="610" y="452" class="mono eyebrow" fill="#A5A59F">THE BUILD STANDARD</text>
+<line x1="620" y1="487" x2="620" y2="643" stroke="#555550"/>
+<g fill="#F7F7F5"><circle cx="620" cy="492" r="3.2"/><circle cx="620" cy="530" r="3.2"/><circle cx="620" cy="568" r="3.2"/><circle cx="620" cy="606" r="3.2"/><circle cx="620" cy="644" r="3.2"/></g>
+<g class="sans" fill="#F7F7F5"><text x="642" y="497" font-size="14" font-weight="600">Research current APIs</text><text x="642" y="535" font-size="14" font-weight="600">Write the design brief</text><text x="642" y="573" font-size="14" font-weight="600">Implement with intent</text><text x="642" y="611" font-size="14" font-weight="600">Verify in a real terminal</text><text x="642" y="649" font-size="14" font-weight="600">Report honestly</text></g>
+<a xlink:href="https://github.com/programmersd21/ratatui-skill" target="_blank"><rect x="52" y="414" width="896" height="282" rx="9" fill="transparent"/></a>
 </g>
-<text x="640" y="420" font-size="13" font-weight="550" fill="#F7F7F4">Research</text>
-<text x="640" y="452" font-size="13" font-weight="550" fill="#F7F7F4">Design brief</text>
-<text x="640" y="484" font-size="13" font-weight="550" fill="#F7F7F4">Implementation</text>
-<text x="640" y="516" font-size="13" font-weight="550" fill="#F7F7F4">Verification</text>
-<text x="640" y="548" font-size="13" font-weight="550" fill="#F7F7F4">Honest report</text>
-</g>
-<text x="884" y="383" class="mono micro" text-anchor="end" fill="#A7A7A0" data-star-count="ratatui-skill">0</text>
-<text x="884" y="570" class="mono tiny" text-anchor="end" fill="#A7A7A0">STARS</text>
-</g>
-<g class="sans">
-<text x="48" y="638" class="mono micro" fill="#777771">02 / OTHER PROJECTS</text>
-<text x="912" y="638" class="mono micro" text-anchor="end" fill="#777771">SELECTED WORK · LIVE REPOSITORY STATS</text>
-</g>
-<g>
-<rect x="48" y="660" width="278" height="116" rx="11" fill="#FFFFFF" stroke="#E5E5E2"/>
-<text x="66" y="683" class="mono micro" fill="#92928C">02 / OPEN SOURCE</text>
-<text x="66" y="714" class="sans project-title" fill="#171717">flow</text>
-<text x="66" y="734" class="sans body" fill="#666660">A fast, focused network throughput monitor for the terminal.</text>
-<text x="66" y="759" class="mono tiny" fill="#92928C">GO  /  BUBBLE TEA</text>
-<text x="307" y="683" class="mono tiny" text-anchor="end" fill="#171717" data-star-count="flow">0</text>
-<text x="308" y="759" class="mono tiny" text-anchor="end" fill="#92928C">STARS</text>
-</g>
-<g>
-<rect x="341" y="660" width="278" height="116" rx="11" fill="#FFFFFF" stroke="#E5E5E2"/>
-<text x="359" y="683" class="mono micro" fill="#92928C">03 / OPEN SOURCE</text>
-<text x="359" y="714" class="sans project-title" fill="#171717">wallr</text>
-<text x="359" y="734" class="sans body" fill="#666660">A GPU-accelerated animated wallpaper engine for Wayland.</text>
-<text x="359" y="759" class="mono tiny" fill="#92928C">RUST  /  WAYLAND  /  WGPU</text>
-<text x="600" y="683" class="mono tiny" text-anchor="end" fill="#171717" data-star-count="wallr">0</text>
-<text x="601" y="759" class="mono tiny" text-anchor="end" fill="#92928C">STARS</text>
-</g>
-<g>
-<rect x="634" y="660" width="278" height="116" rx="11" fill="#FFFFFF" stroke="#E5E5E2"/>
-<text x="652" y="683" class="mono micro" fill="#92928C">04 / OPEN SOURCE</text>
-<text x="652" y="714" class="sans project-title" fill="#171717">pyratatui</text>
-<text x="652" y="734" class="sans body" fill="#666660">Ratatui-style terminal interfaces, built with Python.</text>
-<text x="652" y="759" class="mono tiny" fill="#92928C">PYTHON  /  TUI</text>
-<text x="893" y="683" class="mono tiny" text-anchor="end" fill="#171717" data-star-count="pyratatui">0</text>
-<text x="894" y="759" class="mono tiny" text-anchor="end" fill="#92928C">STARS</text>
-</g>
-<g>
-<rect x="48" y="790" width="278" height="116" rx="11" fill="#FFFFFF" stroke="#E5E5E2"/>
-<text x="66" y="813" class="mono micro" fill="#92928C">05 / OPEN SOURCE</text>
-<text x="66" y="844" class="sans project-title" fill="#171717">mew</text>
-<text x="66" y="864" class="sans body" fill="#666660">A zero-daemon terminal companion and Git workspace dashboard.</text>
-<text x="66" y="889" class="mono tiny" fill="#92928C">RUST  /  GIT</text>
-<text x="307" y="813" class="mono tiny" text-anchor="end" fill="#171717" data-star-count="mew">0</text>
-<text x="308" y="889" class="mono tiny" text-anchor="end" fill="#92928C">STARS</text>
-</g>
-<g>
-<rect x="341" y="790" width="278" height="116" rx="11" fill="#FFFFFF" stroke="#E5E5E2"/>
-<text x="359" y="813" class="mono micro" fill="#92928C">06 / OPEN SOURCE</text>
-<text x="359" y="844" class="sans project-title" fill="#171717">scribe</text>
-<text x="359" y="864" class="sans body" fill="#666660">Local, offline speech-to-text with whisper.cpp and Ratatui.</text>
-<text x="359" y="889" class="mono tiny" fill="#92928C">RUST  /  WHISPER.CPP</text>
-<text x="600" y="813" class="mono tiny" text-anchor="end" fill="#171717" data-star-count="scribe">0</text>
-<text x="601" y="889" class="mono tiny" text-anchor="end" fill="#92928C">STARS</text>
-</g>
-<g>
-<rect x="634" y="790" width="278" height="116" rx="11" fill="#F0F0ED" stroke="#E5E5E2"/>
-<text x="652" y="815" class="mono micro" fill="#85857F">TOOLS &amp; PRACTICE</text>
-<text x="652" y="844" class="sans" font-size="16" font-weight="550" fill="#171717">Rust · Go · Python</text>
-<text x="652" y="866" class="sans" font-size="11" fill="#666660">Linux · Wayland · terminal UI</text>
-<text x="652" y="889" class="sans" font-size="11" fill="#666660">Small surface. Strong foundations.</text>
-</g>
-<line x1="48" y1="930" x2="912" y2="930" class="rule"/>
-<text x="48" y="949" class="mono tiny" fill="#85857F">PROGRAMMERSD21</text>
-<text x="912" y="949" class="mono tiny" text-anchor="end" fill="#85857F">BUILT IN THE OPEN · GITHUB</text>
+<g class="sans"><text x="52" y="745" class="mono eyebrow" fill="#777771">02 / OTHER PROJECTS</text><text x="948" y="745" class="mono eyebrow" text-anchor="end" fill="#777771">SELECTED WORK · LIVE STATS</text></g>
+<a xlink:href="https://github.com/programmersd21/flow" target="_blank"><g>
+<rect x="52" y="770" width="286" height="136" rx="8" class="card"/><text x="72" y="797" class="mono card-meta">GO / NETWORKING</text><text x="72" y="834" class="sans card-title">flow</text><text x="72" y="858" class="sans card-copy">A focused network throughput monitor</text><text x="72" y="877" class="sans card-copy">for the terminal.</text><text x="318" y="797" class="mono" font-size="11" text-anchor="end" fill="#191918" data-star-count="flow">466</text><text x="318" y="889" class="mono card-meta" text-anchor="end"><tspan data-fork-count="flow">13</tspan> forks</text>
+</g></a>
+<a xlink:href="https://github.com/programmersd21/wallr" target="_blank"><g>
+<rect x="357" y="770" width="286" height="136" rx="8" class="card"/><text x="377" y="797" class="mono card-meta">RUST / WAYLAND</text><text x="377" y="834" class="sans card-title">wallr</text><text x="377" y="858" class="sans card-copy">A GPU-accelerated animated wallpaper</text><text x="377" y="877" class="sans card-copy">engine for Wayland.</text><text x="623" y="797" class="mono" font-size="11" text-anchor="end" fill="#191918" data-star-count="wallr">203</text><text x="623" y="889" class="mono card-meta" text-anchor="end"><tspan data-fork-count="wallr">7</tspan> forks</text>
+</g></a>
+<a xlink:href="https://github.com/programmersd21/pyratatui" target="_blank"><g>
+<rect x="662" y="770" width="286" height="136" rx="8" class="card"/><text x="682" y="797" class="mono card-meta">PYTHON / TUI</text><text x="682" y="834" class="sans card-title">pyratatui</text><text x="682" y="858" class="sans card-copy">Ratatui-style terminal interfaces,</text><text x="682" y="877" class="sans card-copy">built with Python.</text><text x="928" y="797" class="mono" font-size="11" text-anchor="end" fill="#191918" data-star-count="pyratatui">173</text><text x="928" y="889" class="mono card-meta" text-anchor="end"><tspan data-fork-count="pyratatui">9</tspan> forks</text>
+</g></a>
+<a xlink:href="https://github.com/programmersd21/mew" target="_blank"><g>
+<rect x="52" y="922" width="286" height="136" rx="8" class="card"/><text x="72" y="949" class="mono card-meta">RUST / GIT</text><text x="72" y="986" class="sans card-title">mew</text><text x="72" y="1010" class="sans card-copy">A zero-daemon terminal companion</text><text x="72" y="1029" class="sans card-copy">and Git workspace dashboard.</text><text x="318" y="949" class="mono" font-size="11" text-anchor="end" fill="#191918" data-star-count="mew">66</text><text x="318" y="1041" class="mono card-meta" text-anchor="end"><tspan data-fork-count="mew">1</tspan> fork</text>
+</g></a>
+<a xlink:href="https://github.com/programmersd21/scribe" target="_blank"><g>
+<rect x="357" y="922" width="286" height="136" rx="8" class="card"/><text x="377" y="949" class="mono card-meta">RUST / WHISPER.CPP</text><text x="377" y="986" class="sans card-title">scribe</text><text x="377" y="1010" class="sans card-copy">Local, offline speech-to-text</text><text x="377" y="1029" class="sans card-copy">in the terminal.</text><text x="623" y="949" class="mono" font-size="11" text-anchor="end" fill="#191918" data-star-count="scribe">8</text><text x="623" y="1041" class="mono card-meta" text-anchor="end"><tspan data-fork-count="scribe">0</tspan> forks</text>
+</g></a>
+<g><rect x="662" y="922" width="286" height="136" rx="8" fill="#EFEFEC" stroke="#E5E5E0"/><text x="682" y="949" class="mono card-meta">CURRENT TOOLKIT</text><text x="682" y="986" class="serif" font-size="27" fill="#191918">Rust · Go · Python</text><text x="682" y="1015" class="sans card-copy">Linux · Wayland · terminal UI</text><text x="682" y="1037" class="sans card-copy">Small surface. Strong foundations.</text></g>
+<line x1="52" y1="1090" x2="948" y2="1090" class="rule"/>
+<text x="52" y="1120" class="mono" font-size="9" letter-spacing=".8px" fill="#85857F">PROGRAMMERSD21</text><text x="948" y="1120" class="mono" font-size="9" letter-spacing=".8px" text-anchor="end" fill="#85857F">BUILT IN THE OPEN · GITHUB</text>
 </svg>
