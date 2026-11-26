@@ -4,7 +4,7 @@
 <desc id="desc">An editorial developer portfolio with a persistent project index, a featured Ratatui skill showcase, live GitHub statistics, and selected open-source projects.</desc>
 <defs>
 <style>
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&amp;display=swap&amp;family=Instrument+Sans:wght@400;500;600;700&amp;display=swap&amp;family=Instrument+Serif:ital@0;1&amp;display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&amp;family=Instrument+Sans:wght@400;500;600;700&amp;family=Instrument+Serif:ital@0;1&amp;display=swap');
 :root{--bg:#f7f7f5;--paper:#fbfbfa;--ink:#191918;--muted:#686862;--quiet:#85857f;--line:#e5e5e0;--soft:#f0f0ed;--dark:#191918}
 text{ text-rendering:geometricPrecision }
 .sans{font-family:'Instrument Sans',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}
@@ -188,7 +188,7 @@ a{text-decoration:none}
 <rect x="320" y="1046" width="352" height="72" rx="4" class="card project-card"/>
 <text x="342" y="1072" class="mono project-meta">RUST / WHISPER.CPP</text>
 <text x="342" y="1098" class="sans project-title">scribe</text>
-<text x="640" y="1096" class="mono project-meta" text-anchor="end"><tspan data-star-count="scribe">8</tspan> STARS</text>
+<text x="640" y="1096" class="mono project-meta" text-anchor="end"><tspan data-star-count="scribe">8</tspan> STARS · <tspan data-fork-count="scribe">0</tspan> FORKS</text>
 </a>
 <g>
 <rect x="688" y="1046" width="364" height="72" rx="4" fill="#f0f0ed" stroke="#e5e5e0"/>
