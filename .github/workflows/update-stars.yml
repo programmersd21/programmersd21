@@ -14,7 +14,7 @@ permissions:
 
 concurrency:
   group: update-profile-repository-stats
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   update:
@@ -33,15 +33,17 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: node .github/scripts/update_stats.mjs
-      - name: Commit updated profile SVG
+      - name: Commit updated showcase SVG
+        env:
+          BRANCH_NAME: ${{ github.ref_name }}
         run: |
-          if git diff --quiet -- profile.svg; then
+          if git diff --quiet -- showcase.svg; then
             echo "Repository statistics are already current."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add profile.svg
+          git add showcase.svg
           git commit -m "chore: update repository stars and forks"
-          git pull --rebase origin main
-          git push
+          git pull --rebase origin "$BRANCH_NAME"
+          git push origin "HEAD:$BRANCH_NAME"
