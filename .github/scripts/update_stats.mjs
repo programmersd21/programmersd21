@@ -144,7 +144,7 @@ async function main() {
 
   for (const [repository, item] of Object.entries(stats)) {
     svg = updateMetric(svg, repository, "stars", number.format(item.stars));
-    svg = updateMetric(svg, repository, "forks", number.format(item.forks) + " forks");
+    svg = updateMetric(svg, repository, "forks", number.format(item.forks) + (item.forks === 1 ? " fork" : " forks"));
   }
 
   await writeFile(svgPath, svg, "utf8");
