@@ -1,7 +1,6 @@
 import json
 import os
 import urllib.request
-from datetime import datetime, timezone
 from xml.sax.saxutils import escape
 
 OWNER = "programmersd21"
