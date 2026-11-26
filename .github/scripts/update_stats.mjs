@@ -121,6 +121,25 @@ function updateMetric(svg, repository, kind, value) {
   return updated;
 }
 
+function updateTotalMetric(svg, metric, value) {
+  const attribute = "data-total-" + metric;
+  const pattern = new RegExp(
+    "(<text\\b(?=[^>]*\\b" + attribute + "=\\\"true\\\")[^>]*>)[\\s\\S]*?(</text>)",
+    "g",
+  );
+  let replacements = 0;
+  const updated = svg.replace(pattern, (_, opening, closing) => {
+    replacements += 1;
+    return opening + value + closing;
+  });
+
+  if (replacements !== 1) {
+    throw new Error("Expected one " + attribute + " marker; updated " + replacements);
+  }
+
+  return updated;
+}
+
 async function main() {
   const entries = await Promise.all(
     Object.keys(repositories).map(async (repository) => [repository, await fetchRepositoryStats(repository)]),
@@ -147,8 +166,18 @@ async function main() {
     svg = updateMetric(svg, repository, "forks", number.format(item.forks) + (item.forks === 1 ? " fork" : " forks"));
   }
 
+  const totals = Object.values(stats).reduce(
+    (sum, item) => ({ stars: sum.stars + item.stars, forks: sum.forks + item.forks }),
+    { stars: 0, forks: 0 },
+  );
+
+  svg = updateTotalMetric(svg, "projects", number.format(Object.keys(repositories).length));
+  svg = updateTotalMetric(svg, "stars", number.format(totals.stars));
+  svg = updateTotalMetric(svg, "forks", number.format(totals.forks));
+
   await writeFile(svgPath, svg, "utf8");
 
+  console.log("Portfolio totals: " + number.format(Object.keys(repositories).length) + " projects, " + number.format(totals.stars) + " stars, " + number.format(totals.forks) + " forks");
   console.log("Updated GitHub repository statistics:");
   for (const [repository, item] of Object.entries(stats)) {
     console.log("  " + repository + ": " + number.format(item.stars) + " stars, " + number.format(item.forks) + " forks");
