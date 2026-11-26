@@ -28,7 +28,7 @@ jobs:
           node-version: 24
       - name: Update project statistics
         env:
-          GITHUB_TOKEN: \${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: node .github/scripts/update_stats.mjs
       - name: Commit updated profile
         run: |
