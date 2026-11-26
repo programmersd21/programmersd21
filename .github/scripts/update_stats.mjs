@@ -5,18 +5,19 @@ import path from "node:path";
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../..");
 const svgPath = path.join(root, "profile.svg");
 const owner = "programmersd21";
-const repositories = ["flow", "wallr", "pyratatui", "mew", "venti", "scribe"];
+const repositories = ["flow", "wallr", "pyratatui", "mew", "ratatui-skill", "scribe"];
 const token = process.env.GITHUB_TOKEN;
+const number = new Intl.NumberFormat("en-US");
 
 if (!token) {
   throw new Error("GITHUB_TOKEN is required");
 }
 
 async function fetchRepositoryStats(repository) {
-  const response = await fetch(`https://api.github.com/repos/${owner}/${repository}`, {
+  const response = await fetch("https://api.github.com/repos/" + owner + "/" + repository, {
     headers: {
       Accept: "application/vnd.github+json",
-      Authorization: `Bearer ${token}`,
+      Authorization: "Bearer " + token,
       "X-GitHub-Api-Version": "2022-11-28",
       "User-Agent": "programmersd21-profile-stats",
     },
@@ -24,13 +25,17 @@ async function fetchRepositoryStats(repository) {
   });
 
   if (!response.ok) {
-    throw new Error(`GitHub API returned ${response.status} for ${repository}: ${await response.text()}`);
+    throw new Error("GitHub API returned " + response.status + " for " + repository + ": " + await response.text());
   }
 
   const data = await response.json();
 
-  if (!Number.isSafeInteger(data.stargazers_count) || !Number.isSafeInteger(data.forks_count)) {
-    throw new Error(`GitHub returned invalid repository statistics for ${repository}`);
+  if (data.full_name !== owner + "/" + repository ||
+      !Number.isSafeInteger(data.stargazers_count) ||
+      !Number.isSafeInteger(data.forks_count) ||
+      data.stargazers_count < 0 ||
+      data.forks_count < 0) {
+    throw new Error("GitHub returned invalid repository statistics for " + repository);
   }
 
   return {
@@ -39,19 +44,19 @@ async function fetchRepositoryStats(repository) {
   };
 }
 
-function replaceCount(svg, attribute, project, count, expected) {
+function replaceCount(svg, attribute, project, value, expected) {
   const pattern = new RegExp(
-    '(<text[^>]*' + attribute + '="' + project + '"[^>]*>)[^<]*(</text>)',
+    '(<text\\b[^>]*\\b' + attribute + '="' + project + '"[^>]*>)[^<]*(</text>)',
     "g",
   );
   let replacements = 0;
   const updated = svg.replace(pattern, (_, opening, closing) => {
     replacements += 1;
-    return opening + count + closing;
+    return opening + value + closing;
   });
 
   if (replacements !== expected) {
-    throw new Error(`Expected ${expected} ${attribute} labels for ${project}; updated ${replacements}`);
+    throw new Error("Expected " + expected + " " + attribute + " labels for " + project + "; updated " + replacements);
   }
 
   return updated;
@@ -59,33 +64,30 @@ function replaceCount(svg, attribute, project, count, expected) {
 
 async function main() {
   const entries = await Promise.all(
-    repositories.map(async (repository) => [
-      repository,
-      await fetchRepositoryStats(repository),
-    ]),
+    repositories.map(async (repository) => [repository, await fetchRepositoryStats(repository)]),
   );
   const stats = Object.fromEntries(entries);
   let svg = await readFile(svgPath, "utf8");
 
   for (const repository of repositories) {
-    svg = replaceCount(svg, "data-star-count", repository, stats[repository].stars, 2);
-    svg = replaceCount(svg, "data-fork-count", repository, stats[repository].forks, 1);
+    svg = replaceCount(svg, "data-star-count", repository, number.format(stats[repository].stars), 2);
+    svg = replaceCount(svg, "data-fork-count", repository, number.format(stats[repository].forks), 1);
   }
 
   const totalStars = Object.values(stats).reduce((sum, item) => sum + item.stars, 0);
   const totalForks = Object.values(stats).reduce((sum, item) => sum + item.forks, 0);
 
-  svg = replaceCount(svg, "data-total-stars", "true", totalStars + " stars across six projects", 1);
-  svg = replaceCount(svg, "data-total-forks", "true", totalForks + " forks across six projects", 1);
+  svg = replaceCount(svg, "data-total-stars", "true", number.format(totalStars) + " stars across " + repositories.length + " projects", 1);
+  svg = replaceCount(svg, "data-total-forks", "true", number.format(totalForks) + " forks across " + repositories.length + " projects", 1);
 
   await writeFile(svgPath, svg, "utf8");
 
   console.log("Updated GitHub profile statistics:");
   for (const repository of repositories) {
-    const { stars, forks } = stats[repository];
-    console.log(`  ${repository}: ${stars} stars, ${forks} forks`);
+    const item = stats[repository];
+    console.log("  " + repository + ": " + number.format(item.stars) + " stars, " + number.format(item.forks) + " forks");
   }
-  console.log(`  total: ${totalStars} stars, ${totalForks} forks`);
+  console.log("  total: " + number.format(totalStars) + " stars, " + number.format(totalForks) + " forks");
 }
 
 main().catch((error) => {
