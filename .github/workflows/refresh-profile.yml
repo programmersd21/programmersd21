@@ -8,7 +8,7 @@ on:
     branches:
       - main
     paths:
-      - scripts/generate_profile.py
+      - .github/scripts/update_stats.mjs
       - .github/workflows/refresh-profile.yml
 
 permissions:
@@ -23,13 +23,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-node@v4
         with:
-          python-version: "3.12"
-      - name: Generate profile SVG
+          node-version: 24
+      - name: Update project statistics
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python scripts/generate_profile.py
+          GITHUB_TOKEN: \${{ secrets.GITHUB_TOKEN }}
+        run: node .github/scripts/update_stats.mjs
       - name: Commit updated profile
         run: |
           if git diff --quiet -- profile.svg; then
