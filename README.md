@@ -1,1 +1,1 @@
-![programmersd21 project overview with live GitHub star and fork counts](profile.svg)
+![Animated project overview with live GitHub stars and forks, detailed project previews and feature notes](profile.svg)
