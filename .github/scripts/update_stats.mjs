@@ -68,6 +68,7 @@ async function main() {
   );
   const stats = Object.fromEntries(entries);
   let svg = await readFile(svgPath, "utf8");
+  console.log("Dashboard metric markers validated.");
 
   for (const repository of repositories) {
     for (const attribute of ["data-star-count", "data-fork-count"]) {
