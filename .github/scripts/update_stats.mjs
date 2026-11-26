@@ -70,6 +70,22 @@ async function main() {
   let svg = await readFile(svgPath, "utf8");
 
   for (const repository of repositories) {
+    for (const attribute of ["data-star-count", "data-fork-count"]) {
+      const matches = svg.match(new RegExp("\\b" + attribute + "=\"" + repository + "\"", "g")) ?? [];
+      if (matches.length !== 1) {
+        throw new Error("Expected one " + attribute + " marker for " + repository + "; found " + matches.length);
+      }
+    }
+  }
+
+  for (const attribute of ["data-total-stars", "data-total-forks"]) {
+    const matches = svg.match(new RegExp("\\b" + attribute + "=\"true\"", "g")) ?? [];
+    if (matches.length !== 1) {
+      throw new Error("Expected one " + attribute + " marker; found " + matches.length);
+    }
+  }
+
+  for (const repository of repositories) {
     svg = replaceCount(svg, "data-star-count", repository, number.format(stats[repository].stars), 1);
     svg = replaceCount(svg, "data-fork-count", repository, number.format(stats[repository].forks) + " forks", 1);
   }
