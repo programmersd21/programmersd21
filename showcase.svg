@@ -134,7 +134,7 @@
 <g transform="translate(902,1079) scale(0.625)"><path d="M12 2.6l2.9 6.1 6.7.9-4.9 4.6 1.2 6.6L12 17.5l-5.9 3.3 1.2-6.6L2.4 9.6l6.7-.9z" fill="#bdbdbd"/></g>
 <text data-star-count="mew" x="925.77" y="1092.2" fill="#f2f2f2" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="500">66</text>
 <g transform="translate(978,1079) scale(0.625)" fill="none" stroke="#bdbdbd" stroke-width="2.2" stroke-linecap="round"><circle cx="6" cy="4.5" r="2.4"/><circle cx="18" cy="4.5" r="2.4"/><circle cx="12" cy="19.5" r="2.4"/><path d="M6 7v1.5c0 2 1.5 3 6 3s6-1 6-3V7M12 11.5v5.6"/></g>
-<text data-fork-count="mew" x="998.75" y="1092" fill="#f2f2f2" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="500">1 forks</text>
+<text data-fork-count="mew" x="998.75" y="1092" fill="#f2f2f2" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="500">1 fork</text>
 </g></g></a>
 <clipPath id="clip-ratatui-skill"><rect x="57" y="1145" width="473" height="186" rx="13"/></clipPath>
 <clipPath id="card-ratatui-skill"><rect x="48" y="1136" width="491" height="352" rx="18"/></clipPath>
