@@ -130,6 +130,13 @@ async function main() {
 
   if (!svg.startsWith("<svg")) throw new Error("showcase.svg is not a valid SVG document");
 
+  const oldShimmer = ".shim{animation:shim 8s cubic-bezier(.45,0,.55,1) var(--dl,0s) infinite}\\n@keyframes shim{0%{transform:translateX(-200px) skewX(-18deg)}55%,100%{transform:translateX(700px) skewX(-18deg)}}";
+  const newShimmer = ".shim{animation:shim 5s linear var(--dl,0s) infinite}\\n@keyframes shim{from{transform:translateX(-200px) skewX(-18deg)}to{transform:translateX(700px) skewX(-18deg)}}";
+  if (svg.split(oldShimmer).length !== 2 && !svg.includes(newShimmer)) {
+    throw new Error("Expected exactly one original shimmer definition");
+  }
+  svg = svg.replace(oldShimmer, newShimmer);
+
   for (const [repository, metrics] of Object.entries(repositories)) {
     svg = ensureMetric(svg, repository, "stars", metrics.stars);
     svg = ensureMetric(svg, repository, "forks", metrics.forks);
