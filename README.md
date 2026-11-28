@@ -1,1 +1,1 @@
-![Monochrome portfolio dashboard with featured Ratatui skill, selected open-source projects and live GitHub statistics](showcase.svg)
+<p align="center"><img src="./showcase.svg" alt="Soumalya Das — selected open-source projects and GitHub activity" width="100%" /></p>
